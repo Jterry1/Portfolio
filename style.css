@@ -1,0 +1,133 @@
+body *{
+    margin: 0px auto;
+}
+.container {
+    width: 950px;
+    min-height: 900px;
+    margin: 0px auto;
+    background-color: rgb(61, 8, 61);
+
+}
+header {
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+}
+h1 {
+    margin-left: 20px;
+    margin-top: 10px;
+    color: black;
+}
+h2 {
+    margin-right: 20px;
+    margin-top: 12px;
+    color: black;
+    font-size: 18px;
+    
+}
+.box {
+    width: 280px;
+    min-height: 300px;
+    display: inline-block;
+    background-color: rgb(199, 174, 174);   
+    padding: 0px;
+    margin-left: 25px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+.box * {
+    margin: 0px;
+}
+.box h2 {
+    min-height: 10px;
+    width: 97%;
+    background-color: rgb(85, 78, 78);
+    padding: 5px;
+    color: white;
+    
+}
+
+img {
+    width: 40%;
+    min-height: 250px;
+    margin: 20px ;
+    margin-left: 60px;
+    background-color: rgb(199, 174, 174);   
+}
+
+#about {
+    width: 45%;
+    min-height: 250px;
+    margin: 20px ;
+    display: inline-block; 
+    background-color: rgb(199, 174, 174); 
+    vertical-align: top;  
+}
+
+.tech {
+    min-height: 240px;
+    width: 280px;
+    display: inline-block;
+    background-color: rgb(199, 174, 174); 
+    margin: 0px;  
+}
+.tech h3{
+    margin: 0px;
+    background-color: rgb(85, 78, 78);
+    padding: 5px;
+    color: white;
+}
+
+.tech img {
+    width: 50px;
+    min-height: 50px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#about h2 {
+    min-height: 10px;
+    width: 98%;
+    background-color: rgb(85, 78, 78);
+    padding: 5px;
+    color: white;
+    margin: 0px;
+}
+
+.hero {
+    min-height: 100px;
+    width: 100%;
+}
+
+.fam {
+    width: 100%;
+    min-height:100px;
+}
+
+.usa {
+    width: 100%;
+    min-height:100px;
+}
+
+footer {
+    min-height: 50px;
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+}
+
+footer img{
+    min-height: 30px;
+    width: 30px;
+
+}
+
+.box a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(42, 6, 206);
+    margin-bottom: 10px;
+    font-size: 18px;
+}
